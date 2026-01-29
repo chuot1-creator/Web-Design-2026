@@ -1,5 +1,3 @@
-
-
 p {
 	/*color:	red;*/
 	color: #666666;
@@ -14,24 +12,6 @@ body {
 	background-color: #ebe3c3;
 }
 
-#container {
-	background-color: #ffffff;
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#nav {
-	list-style-type: none;
-	padding: 0;
-}
-
-#nav li {
-	margin: 0;
-	padding:0;
-	border-bottom: 1px solid #ccc;
-}
-
 #nav a:link, a:visited {
 	display: block;
 	color: #ffffff;
@@ -41,25 +21,4 @@ body {
 	text-decoration: none;
 	font-family: Helvetica, Arial, sans-serif;
 	padding: 10px;
-}
-
-#nav a:hover, a:active {
-	background-color: #7a991a;
-}
-
-
-.caption {
-    color: black;
-    font-family: Georgia, "Times New Roman", serif;
-    font-style: italic;
-    font-size: 0.8em;
-    margin-top: 0;
-    text-align: right;
-}
-
-#footer {
-	color: seagreen;
-	font-family: Georgia, "Times New Roman" serif;
-	font-size: 0.8em;
-	border-top: 1px solid black;
 }
