@@ -1,5 +1,11 @@
 p {
 	color: black;
+	font-family: Helvetica, Georgia, serif;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
 }
 
 #container {
@@ -10,3 +16,29 @@ p {
 	text-align: center;
 }
 
+#nav {
+    padding: 0;
+	list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
+
+#nav a:link, a:visited {
+	display:block;
+    color: hotpink;
+    background-color: #98bf21;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: #7a991a;
+}
