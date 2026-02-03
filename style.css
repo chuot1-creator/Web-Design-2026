@@ -31,7 +31,7 @@ h1 {
 #nav a:link, a:visited {
 	display:block;
     color: hotpink;
-    background-color: #98bf21;
+    background-color: lightpink;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -40,5 +40,12 @@ h1 {
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: lightblue;
+}
+
+.joke {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+
 }
