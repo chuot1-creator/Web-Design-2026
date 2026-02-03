@@ -4,7 +4,7 @@ p {
 	color: hotpink;
 }
 
-h1 {
+h1{
 	font-family: Courier, Arial, sans-serif;
 	font-style: italic;
 	color: rgb(25, 82, 194);
@@ -13,18 +13,30 @@ h1 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 
 }
 
-#container {
+#button a:link, #button a:visited {
+	padding: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(25, 82, 194);
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: ;
+}
+
+#container{
 	background-color: #ffffff;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
 }
 
-#nav {
+#nav{
     padding: 0;
 	list-style-type: none;
 }
@@ -45,16 +57,16 @@ h1 {
     text-decoration: none;
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 #nav a:hover, a:active {
     background-color: lightblue;
 }
 
-.joke {
+.joke{
 	font-style: italic;
 	font-weight: bold;
 	font-size: 1.5em;
 	color: rgb(25, 82, 194);
-
 }
