@@ -1,16 +1,24 @@
 p {
 	color: black;
-	font-family: Helvetica, Georgia, serif;
+	font-family: Palatino, Georgia, serif;
+	color: hotpink;
 }
 
 h1 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Courier, Arial, sans-serif;
 	font-style: italic;
+	color: rgb(25, 82, 194);
+	font-size: 3.25em;
+    background-color: rgb(226, 105, 176);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #container {
 	background-color: #ffffff;
-	width: 95%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -30,8 +38,8 @@ h1 {
 
 #nav a:link, a:visited {
 	display:block;
-    color: hotpink;
-    background-color: lightpink;
+    color: lightblue;
+    background-color: rgb(226, 105, 176);
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -47,5 +55,6 @@ h1 {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 1.5em;
+	color: rgb(25, 82, 194);
 
 }
