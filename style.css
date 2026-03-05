@@ -41,7 +41,7 @@ h1{
 #nav{
     padding: 0;
 	list-style-type: none;
-    display: flex;
+  display: flex
   flex-flow:column;
 }
 
@@ -119,7 +119,7 @@ h1{
 }
 
 .main{
-  display:flex;
+  /*display:flex;*/
   flex-flow:row;
 }
 
@@ -131,7 +131,13 @@ h1{
   background: hotpink;
 }
 
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
+}
+
 
 /*We need to tell the browser we want to work with flex*/
 .wrapper{
