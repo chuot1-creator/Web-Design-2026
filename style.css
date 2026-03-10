@@ -10,8 +10,8 @@ h1{
 	font-family: "Oswald", Courier, Arial, sans-serif;
 	font-style: italic;
 	color: rgb(25, 82, 194);
-	font-size: 3rem;
-	line-height: 1.55rem;
+	font-size: 4rem;
+	line-height: 4rem;
     background-color: rgb(226, 105, 176);
     width: 75%;
     margin-left: auto;
@@ -94,23 +94,12 @@ h1{
   border-bottom: none;
 }
 
-@media (min-width:800px){
+@media (min-width:600px){
 #nav {
   flex-flow: row;
+  .image
 }
 
-
-#nav{
-  flex-flow: row wrap;
-  justify-content: flex-end;
-}
-#nav a{
-  border-top:none;
-  border-bottom:none;
-}
-#nav a:hover{
-  background:black;
-}
 
 .first {
   margin-right: auto;
@@ -131,8 +120,8 @@ h1{
 
 #header {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-
+  grid-template-columns: 500px 1000px;
+  grid-template-rows: 500px 100px;
 }
 
 
