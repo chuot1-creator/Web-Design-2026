@@ -1,0 +1,140 @@
+p {
+	font-family: "Helvetica", Palatino, serif;
+	color: hotpink;
+	font-size: 1.25rem;
+	line-height: 2rem;
+  text-align: center;
+}
+
+h1{
+	font-family: "Oswald", Courier, Arial, sans-serif;
+	font-style: italic;
+	color: rgb(25, 82, 194);
+	font-size: 4rem;
+	line-height: 4rem;
+    background-color: rgb(226, 105, 176);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#button a:link, #button a:visited {
+	padding: 5px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(25, 82, 194);
+	display:block;
+	text-align: center;
+	text-decoration: none;
+}
+
+#container{
+	background-color: #ffffff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+    padding: 0;
+	list-style-type: none;
+  display: flex;
+  flex-flow:column;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
+
+#nav a:link, a:visited {
+	display:block;
+    color: lightblue;
+    background-color: rgb(226, 105, 176);
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: lightblue;
+}
+
+.joke{
+	font-family: "Oswald", Courier, Arial, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.55em;
+	color: rgb(25, 82, 194);
+}
+
+/*#nav{
+  list-style: none;
+  background: gray;
+  margin:0;
+  padding: 0;
+}*/
+
+#nav a{
+  text-decoration: none;
+  color: white;
+  padding:10px;
+  border-top:1px solid black;
+  border-bottom:1px solid white;
+}
+
+#nav li:last-of-type a{
+  border-bottom: none;
+}
+
+@media (min-width:600px){
+#nav {
+  flex-flow: row;
+  .image
+}
+
+
+.first {
+  margin-right: auto;
+}
+
+.main{
+  /*display:flex;*/
+  flex-flow:row;
+}
+
+.aside-1{
+  background: gold;
+}
+
+.aside-2{
+  background: hotpink;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 500px 1000px;
+  grid-template-rows: 500px 100px;
+}
+
+
+
+/*We need to tell the browser we want to work with flex*/
+.wrapper{ 
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header, .main, .aside, .footer{
+  flex: 1 100%;
+  padding: 10px;
+}
