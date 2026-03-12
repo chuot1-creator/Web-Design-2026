@@ -2,7 +2,7 @@
 .container {
   width:100%;
   margin: auto; 
-  background-color:lightskyblue;
+  background-color:#a1ac91;
 }
 
 h1 {
@@ -33,13 +33,13 @@ h1 {
     height: 60px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: Courier,Montserrat, Helvetica;
 }
 
-.email { background-color: lightgray; }    
-.linkedin { background-color: lightgray; } 
-.instagram { background-color:lightgray; }
+.email { background-color: #344e41; }    
+.linkedin { background-color: #344e41; } 
+.instagram { background-color:#344e41; }
 
 .mirror-image {
     grid-area:a;
@@ -65,7 +65,7 @@ h1 {
   grid-area:c;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: lightskyblue;
+  background-color: #a1ac91;
   gap: 20px;
   padding: 20px;
 }
