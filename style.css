@@ -120,7 +120,6 @@ nav a {
     border-radius: 4px;
     font-weight: bold;
     display: inline-block;
-    transition: background-color 0.3s; /* reminder: changes color when you hover */
 }
 
 nav a:hover {
