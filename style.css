@@ -112,19 +112,19 @@ nav {
 }
 
 nav a {
-    background-color: #2e3b30; /* Dark green/grey like your current buttons */
+    background-color: #2e3b30; 
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 10px;
-    border-radius: 4px; /* Optional: adds slightly rounded corners */
+    border-radius: 4px;
     font-weight: bold;
     display: inline-block;
-    transition: background-color 0.3s; /* Smooth color change when hovering */
+    transition: background-color 0.3s; /* reminder: changes color when you hover */
 }
 
 nav a:hover {
-    background-color: #4a5d4d; /* Lightens slightly when you hover over it */
+    background-color: #4a5d4d; /* Reminder: lightens color when you hover over it  */
 }
 
 
