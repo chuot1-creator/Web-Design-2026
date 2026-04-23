@@ -2,7 +2,7 @@
 .container {
   width:100%;
   margin: auto; 
-  background-color:#EDB183;
+  background-color:#F5CBA9;
 }
 
 /* Nav Bar */
@@ -168,7 +168,7 @@ h1 {
   grid-area:c;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #EDB183;
+  background-color: #F5CBA9;
   gap: 20px;
   padding: 20px;
 }
@@ -196,7 +196,7 @@ h1 {
 
 /* Portfolio1 styles*/
 body {
-    background-color: #EDB183;
+    background-color: #F5CBA9;
     color: #333;
     margin: 0;
     padding: 0;
