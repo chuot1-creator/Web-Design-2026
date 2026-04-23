@@ -36,9 +36,21 @@
 
 
 <main class="profile-section">
-      <section class="mirror-image">
-   <p>
-   <img alt= "Hey that's me!" src="img/mountain.jpg"/></a></p>
+     <section class="mirror-image">
+  <div class="slider-container">
+    <div class="slider-arrow prev" onclick="document.querySelector('.slider').scrollBy({left: -300, behavior: 'smooth'})">&#10094;</div>
+    <div class="slider-arrow next" onclick="document.querySelector('.slider').scrollBy({left: 300, behavior: 'smooth'})">&#10095;</div>
+
+   <div class="slider">
+      <div class="slides">
+   <img alt= "Hey that's me!" src="img/mountain.jpg"/></a>
+   <img alt= "Selfie with my mom and sister!" src="img/fam.jpg"/></a>
+   <img alt= "My cutie niece and nephew" src="img/kiddos.jpg"/></a>
+   <img alt= "Me with a pretty sunset" src="img/sunset.jpg"/></a>
+   <img alt= "My best friends and roommates!" src="img/roomies.jpg"/></a>
+         </div>
+      </div>
+   </div> 
 </section>
 
    <div class="bio">
